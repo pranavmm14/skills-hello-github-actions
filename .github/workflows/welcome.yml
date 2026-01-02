@@ -4,4 +4,8 @@ on:
     types: [opened]
   permissions: 
     pull-requests: write
+jobs:
+  welecom:
+      name: Post welcom comment
+      runs-on: ubuntu-latest
     
